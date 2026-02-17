@@ -56,7 +56,8 @@ export default function LoginScreen() {
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate("Home")} // 👉 OTRA PANTALLA
+          onPress={() => navigation.navigate("ClienteHome")}
+
         >
           <Text style={styles.buttonText}>Entrar</Text>
         </TouchableOpacity>
@@ -77,7 +78,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 30,
-     paddingTop: 150,
+    paddingTop: 150,
   },
   input: {
     width: "100%",
@@ -88,7 +89,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     fontSize: 16,
     borderColor: "#00A86B",
-     borderWidth: 4,
+    borderWidth: 4,
   },
   linksRow: {
     width: "100%",
