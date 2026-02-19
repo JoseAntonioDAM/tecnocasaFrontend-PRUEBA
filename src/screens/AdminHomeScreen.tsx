@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: "center",
-        paddingTop: 80,
+        paddingTop: 175,
         paddingHorizontal: 20,
     },
     profileImage: {
@@ -89,11 +89,12 @@ const styles = StyleSheet.create({
         height: 120,
         borderRadius: 60,
         marginBottom: 15,
+        
     },
     name: {
         fontSize: 26,
         fontWeight: "bold",
-        color: "#fff",
+        color: "#000000",
     },
     role: {
         fontSize: 18,
@@ -103,7 +104,7 @@ const styles = StyleSheet.create({
     sectionTitle: {
         fontSize: 22,
         fontWeight: "bold",
-        color: "#fff",
+        color: "#000000",
         marginBottom: 20,
     },
     button: {
@@ -121,8 +122,8 @@ const styles = StyleSheet.create({
     },
     note: {
         marginTop: 25,
-        fontSize: 14,
-        color: "#fff",
+        fontSize: 18,
+        color: "#000000",
         textAlign: "center",
         opacity: 0.8,
     },
