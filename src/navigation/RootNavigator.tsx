@@ -25,9 +25,9 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 export default function RootNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Home" component={HomeScreen} />
+     { /*<Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
-      <Stack.Screen name="Register" component={RegisterScreen} />
+      <Stack.Screen name="Register" component={RegisterScreen} />*/}
 
       <Stack.Screen name="ClienteHome" component={ClienteHomeScreen} />
       <Stack.Screen name="PropertyDetail" component={PropertyDetailScreen} />
